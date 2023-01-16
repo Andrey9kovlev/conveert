@@ -1,7 +1,7 @@
 const usdCurr = 66;
 const eurCurr = 74;
-function convert (amount, curr) {
-    console.log(amount*curr);
+function convert (amount, currency) {
+    console.log(amount*currency);
 }
 convert(1000, usdCurr);
 convert (500, eurCurr);
